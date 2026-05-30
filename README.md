@@ -4,7 +4,7 @@
 ![Optimization](https://img.shields.io/badge/Optimization-Memetic%20Algorithm-brightgreen.svg)
 ![Course](https://img.shields.io/badge/Course-Optimization%20Methods-orange.svg)
 
-This repository contains the codebase for a Biomedical Engineering (BME) optimization project developed for the Optimization Methods course at the University of Basel. 
+This repository contains the codebase for a Biomedical Engineering (BME) optimization project developed for the Optimization Methods course at the joint MS program in BME at the University of Basel and the FHNW in Muttenz. 
 
 The project solves a highly non-convex clinical problem: finding the optimal intersecting angles for two radiotherapy beams to deliver a lethal dose to a central Tumor while completely sparing an adjacent Organ at Risk (OAR).
 
