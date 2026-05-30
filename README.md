@@ -9,7 +9,7 @@ This repository contains the codebase for a Biomedical Engineering (BME) optimiz
 The project solves a highly non-convex clinical problem: finding the optimal intersecting angles for two radiotherapy beams to deliver a lethal dose to a central Tumor while completely sparing an adjacent Organ at Risk (OAR).
 
 ## 🧬 The Clinical Problem
-In external beam radiotherapy, a single high-intensity radiation beam will destroy all healthy tissue in its path. To solve this, oncologists use multiple intersecting beams of lower intensity. The goal is to optimize the angles ($	heta_1$ and $	heta_2$) so that the intersection (the "crossfire") maximizes the dose over the tumor and minimizes the dose to critical adjacent organs.
+In external beam radiotherapy, a single high-intensity radiation beam will destroy all healthy tissue in its path. To solve this, oncologists use multiple intersecting beams of lower intensity. The goal is to optimize the angles ($\theta_1$ and $\theta_2$) so that the intersection (the "crossfire") maximizes the dose over the tumor and minimizes the dose to critical adjacent organs.
 
 ## 🧮 Mathematical Formulation
 The physical space is abstracted into a 2D 100x100 grid. The radiation beams are modeled analytically using a Gaussian decay function based on the perpendicular distance $d$ to the beam's center line:
